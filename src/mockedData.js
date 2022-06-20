@@ -4,56 +4,33 @@ export const data = [
       price: 0,
       unit: 'Durante 6 meses',
       special: {
-        text: 'Includes Font Awesome 6!',
-        excluded: true
+        text: null
+        
       },
       includes: [
         {
-          text: '1,608 Icons',
+          text: 'Archivo médico personal',
           url: ''
         },
         {
-          text: '1 Style + Brands',
+          text: 'Guia médica',
           url: ''
         },
         {
-          text: '1 Seat',
+          text: 'Hasta 3 registros médicos',
           url: ''
         },
         {
-          text: '1 Free Kit',
+          text: 'Citas médicas',
           url: ''
         },
         {
-          text: '10K Pageviews/Month',
+          text: 'Diréctorio médico',
           url: ''
         }
       ],
       excludes: [
-        {
-          text: '0 Uploaded Icons',
-          url: ''
-        },
-        {
-          text: 'Auto-Subsetting',
-          url: ''
-        },
-        {
-          text: 'Human Tech Support',
-          url: ''
-        },
-        {
-          text: 'Pro Asset Downloads',
-          url: ''
-        },
-        {
-          text: 'Standard Pro License',
-          url: ''
-        },
-        {
-          text: 'Pro npm Registry',
-          url: ''
-        }
+    
       ],
       callToAction: {
         text: 'Comenzar Gratis',
@@ -65,7 +42,7 @@ export const data = [
       price: 9.99,
       unit: 'forever',
       special: {
-        text: 'Includes Font Awesome 6!',
+        text: 'Incluye TODAS las carácteristicas del plan Gratuito más:',
         excluded: true
       },
       includes: [

@@ -13,7 +13,6 @@ const StyledPricingCards = styled.div`
 `
 
 const StyledPricingCardContainer = styled.div`
-
   width: 300px;
   margin: 38px 38px 0 0;
   background-color: white;
