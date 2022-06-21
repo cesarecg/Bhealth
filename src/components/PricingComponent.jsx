@@ -245,7 +245,7 @@ const SpecialInfo = (props) => {
           )
         })}
       </StyledSpecialInfoList>
-      {type !== 'free' && <BetaPill />}
+     
     </StyledSpecialInfoContainer>
   )
 }

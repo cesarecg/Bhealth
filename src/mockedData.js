@@ -42,8 +42,7 @@ export const data = [
       price: 9.99,
       unit: 'forever',
       special: {
-        text: 'Incluye TODAS las carácteristicas del plan Gratuito más:',
-        excluded: true
+
       },
       includes: [
         {
