@@ -33,148 +33,72 @@ export const data = [
     
       ],
       callToAction: {
-        text: 'Comenzar Gratis',
+        text: 'Comienza Gratis',
         url: ''
       }
     },
     {
       plan: 'Personal+',
       price: 9.99,
-      unit: 'forever',
+      unit: 'Mensual',
       special: {
 
       },
       includes: [
         {
-          text: '1,608 Icons',
+          text: 'TODOS los beneficios anteriores',
           url: ''
         },
         {
-          text: '1 Style + Brands',
+          text: 'Seguimiento de indicadores de peso',
           url: ''
         },
         {
-          text: '1 Seat',
-          url: ''
-        },
-        {
-          text: '1 Free Kit',
-          url: ''
-        },
-        {
-          text: '10K Pageviews/Month',
+          text: 'Seguimiento de indicadores de tensión',
           url: ''
         }
       ],
       excludes: [
-        {
-          text: '0 Uploaded Icons',
-          url: ''
-        },
-        {
-          text: 'Auto-Subsetting',
-          url: ''
-        },
-        {
-          text: 'Human Tech Support',
-          url: ''
-        },
-        {
-          text: 'Pro Asset Downloads',
-          url: ''
-        },
-        {
-          text: 'Standard Pro License',
-          url: ''
-        },
-        {
-          text: 'Pro npm Registry',
-          url: ''
-        }
+    
       ],
       callToAction: {
-        text: 'Comenzar con Pro',
+        text: 'Comienza con Pro',
         url: ''
       }
     },
     {
       plan: 'Familiar+',
       price: 14.99,
-      unit: 'per year',
+      unit: 'Mensual',
       special: {
-        text: 'Includes Version 6!',
+        text: 'Protege a tu familia',
         excluded: false,
         url: '',
         additionalFeatures: [
-          {
-            text: 'New + Refreshed Icons'
-          },
-          {
-            text: 'Thin Icon Style'
-          },
-          {
-            text: 'Sharp Family of Styles',
-            comingSoon: true
-          },
-          {
-            text: 'Django + Rails Packages',
-            comingSoon: true
-          },
-          {
-            text: 'Web Components',
-            comingSoon: true
-          }
+  
         ]
       },
       includes: [
         {
-          text: '7,864 Icons',
+          text: 'TODOS los beneficios anteriores',
           url: ''
         },
         {
-          text: '4 Styles + Brands',
+          text: 'Hasta 10 registros médicos distintos',
           url: ''
         },
         {
-          text: '5 Seats + $20 per extra seat',
+          text: 'Carnet de salud Medik',
           url: ''
         },
         {
-          text: '20 Hosted Pro Kits',
-          url: ''
-        },
-        {
-          text: '1M Pageviews/Month',
-          url: ''
-        },
-        {
-          text: '250 Uploaded Icons',
-          url: ''
-        },
-        {
-          text: 'Auto-Subsetting',
-          url: ''
-        },
-        {
-          text: 'Human Tech Support',
-          url: ''
-        },
-        {
-          text: 'Pro Asset Downloads',
-          url: ''
-        },
-        {
-          text: 'Standard Pro License',
-          url: ''
-        },
-        {
-          text: 'Pro npm Registry',
+          text: '',
           url: ''
         }
       ],
       excludes: [],
       callToAction: {
-        text: 'Comenzar Pro con tu familia',
+        text: 'Comienza Pro con tu familia',
         url: ''
       }
     }

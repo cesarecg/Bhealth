@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { PricingComponent, Wrapper } from './components'
+import { PricingComponent, Wrapper, Navbar } from './components'
 import { data } from './mockedData'
+
 
 
 ReactDOM.render(
