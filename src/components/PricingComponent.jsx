@@ -179,13 +179,6 @@ const planToHeaderText = (plan) => {
 
 
 
-const BetaPill = () => {
-  return (
-    <StyledBetaPill>
-      BETA
-    </StyledBetaPill>
-  )
-}
 
 const Header = (props) => {
   const {
