@@ -17,14 +17,14 @@ function Navbar() {
   const [extendNavbar, setExtendNavbar] = useState(false);
 
   return (
-    <NavbarContainer extendNavbar={extendNavbar}>
+    <NavbarContainer className="ml-auto" extendNavbar={extendNavbar}>
       <NavbarInnerContainer>
         <LeftContainer>
           <NavbarLinkContainer>
-            <NavbarLink to="/"> Home</NavbarLink>
-            <NavbarLink to="/products"> Products</NavbarLink>
-            <NavbarLink to="/contact"> Contact Us</NavbarLink>
-            <NavbarLink to="/about"> About Us</NavbarLink>
+            <NavbarLink to="/"> Inicio</NavbarLink>
+            <NavbarLink to="/products"> Directorio</NavbarLink>
+            <NavbarLink to="/contact"> Archivo Médico</NavbarLink>
+            <NavbarLink to="/about"> Contacto</NavbarLink>
             <OpenLinksButton
               onClick={() => {
                 setExtendNavbar((curr) => !curr);
@@ -40,10 +40,10 @@ function Navbar() {
       </NavbarInnerContainer>
       {extendNavbar && (
         <NavbarExtendedContainer>
-          <NavbarLinkExtended to="/"> Home</NavbarLinkExtended>
-          <NavbarLinkExtended to="/products"> Products</NavbarLinkExtended>
-          <NavbarLinkExtended to="/contact"> Contact Us</NavbarLinkExtended>
-          <NavbarLinkExtended to="/about"> About Us</NavbarLinkExtended>
+          <NavbarLinkExtended to="/"> Inicio</NavbarLinkExtended>
+          <NavbarLinkExtended to="/products"> Directorio</NavbarLinkExtended>
+          <NavbarLinkExtended to="/contact"> Archivo Médico</NavbarLinkExtended>
+          <NavbarLinkExtended to="/about"> Contacto</NavbarLinkExtended>
         </NavbarExtendedContainer>
       )}
     </NavbarContainer>
